@@ -6,7 +6,7 @@ All the assignments that are allocated in the training session will be udated he
 
 ```
 - Assignments must be uploaded to your perosnal git repositories.
-- The git repository must have the following name ***java-training***
+- The git repository must have the following name java-training
 ```
 
 ### Assignment 1
