@@ -1,5 +1,13 @@
 # Java training
 
+## Important links
+
+VS Code
+- https://code.visualstudio.com/download
+Java Extention pack for VS Code.
+- https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
+
+
 ## Assignments
 
 All the assignments that are allocated in the training session will be udated here.
