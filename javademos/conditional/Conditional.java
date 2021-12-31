@@ -40,7 +40,7 @@ public class Conditional {
     }
 
     public void checkGradeSwitchCase(char grade) {
-        switch(grade) {
+        switch (grade) {
             case 'A':
                 System.out.println("Excellent");
                 break;
@@ -56,8 +56,8 @@ public class Conditional {
             default:
                 System.out.println("Invalid grade");
         }
-        
+
     }
 
-    
+
 }
