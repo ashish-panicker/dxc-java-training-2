@@ -31,7 +31,7 @@ Conditions:
 - The file must be saved as Assignment2.java and under the java folder.
 ```
 
-### Assignment 3
+### Assignment 3 - EncapsulationDemo
 
 Create a Java program that has the following three classess. 
 - All the attributes must be encapsulated. 
