@@ -84,7 +84,7 @@ public class EncapsulationDemo{
 
 ### Assignment 4 - ArraySort
 
-Create a java program with a method called sort. 
+Create a java program with a method called `sort`. 
 - The mothod should accept a integer array.
 - It should then sort the array.
 - Once sorted the array must be retunred to the calling method.
