@@ -81,3 +81,18 @@ public class EncapsulationDemo{
     }
 }
 ```
+
+### Assignment 4 - ArraySort
+
+Create a java program with a method called sort. 
+- The mothod should accept a integer array.
+- It should then sort the array.
+- Once sorted the array must be retunred to the calling method.
+
+
+### Assignment 5 - ArrayLargest
+
+Create a java program with a method call `largestInArray`.
+- The mothod should accept a integer array.
+- It shoudl then find the largest number in the array.
+- The it shoudl return the number back to the calling method.
