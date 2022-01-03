@@ -3,11 +3,26 @@ package javademos;
 import javademos.conditional.Conditional;
 import javademos.encapsulation.Mentor;
 import javademos.encapsulation.Trainee;
+import javademos.inheritance.Car;
+import javademos.inheritance.Vehicle;
 import javademos.iterative.Loops;
 
 public class Main {
     
     public static void main(String[] args) {
+
+
+        Car bmw = new Car("BMW", "Petrol", "Car", "SUV");
+        System.out.println(bmw.getBrand());
+        System.out.println(bmw.getFuelType());
+        System.out.println(bmw.getVehicleType());
+        System.out.println(bmw.getCarType());
+        bmw.fuelEffciency();
+
+        Vehicle vehicle = new Car("Mercedes", "Petrol", "Car", "Sports");
+        vehicle.fuelEffciency();
+
+
         // Loops loops = new Loops();
         // // loops.demoBreak();
         // // loops.demoContinue();
@@ -19,8 +34,8 @@ public class Main {
         // conditional.checkGradeSwitchCase('E');
         // conditional.checkGradeSwitchCase('F');
 
-        Trainee trainee = new Trainee("John", 1, "1234567890", "john@mail.com","Software Engineer");
-        Mentor mentor = new Mentor("Jane", "12344", "jane@mail.com", "Java");
+        // Trainee trainee = new Trainee("John", 1, "1234567890", "john@mail.com","Software Engineer");
+        // Mentor mentor = new Mentor("Jane", "12344", "jane@mail.com", "Java");
 
         // trainee.setName("John");
         // trainee.setId(12345);
@@ -33,20 +48,20 @@ public class Main {
         // mentor.setEmail("jane@mail.com");
         // mentor.setSpecialization("Java");
 
-        System.out.println("Trainee Name: " + trainee.getName());
-        System.out.println("Trainee ID: " + trainee.getId());
-        System.out.println("Trainee Contact Number: " + trainee.getContactNumber());
-        System.out.println("Trainee Email: " + trainee.getEmail());
-        System.out.println("Trainee Designation: " + trainee.getDesignation());
-        System.out.println("Mentor Name: " + mentor.getName());
-        System.out.println("Mentor Contact Number: " + mentor.getContactNumber());
-        System.out.println("Mentor Email: " + mentor.getEmail());
-        System.out.println("Mentor Specialization: " + mentor.getSpecialization());
+        // System.out.println("Trainee Name: " + trainee.getName());
+        // System.out.println("Trainee ID: " + trainee.getId());
+        // System.out.println("Trainee Contact Number: " + trainee.getContactNumber());
+        // System.out.println("Trainee Email: " + trainee.getEmail());
+        // System.out.println("Trainee Designation: " + trainee.getDesignation());
+        // System.out.println("Mentor Name: " + mentor.getName());
+        // System.out.println("Mentor Contact Number: " + mentor.getContactNumber());
+        // System.out.println("Mentor Email: " + mentor.getEmail());
+        // System.out.println("Mentor Specialization: " + mentor.getSpecialization());
 
-        Trainee[] trainees = new Trainee[3];
-        trainees[0] = new Trainee();
-        trainees[1] = new Trainee();
-        trainees[2] = new Trainee();
+        // Trainee[] trainees = new Trainee[3];
+        // trainees[0] = new Trainee();
+        // trainees[1] = new Trainee();
+        // trainees[2] = new Trainee();
 
 
     }
