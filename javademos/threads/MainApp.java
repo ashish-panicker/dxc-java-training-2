@@ -21,11 +21,12 @@ public class MainApp {
         emailThread.setPriority(Thread.MAX_PRIORITY); // 1 - 10
 
         Thread whatsAppThread = new Thread(whatsAppNotification);
-        
-        System.out.format("Starting: %s Current State: %s %n" , smsThread.getName(), smsThread.getState().name());
+
+        System.out.format("Starting: %s Current State: %s %n", smsThread.getName(),
+                smsThread.getState().name());
         smsThread.start();
         // smsThread.join();
-        
+
         emailThread.start();
         // emailThread.join();
 
@@ -46,7 +47,8 @@ class SMSNotification implements Runnable {
     public void run() {
         try {
             Thread.sleep(0);
-            System.err.println(Thread.currentThread().getName() + " : " + Thread.currentThread().getState().name());
+            System.err.println(Thread.currentThread().getName() + " : "
+                    + Thread.currentThread().getState().name());
             System.out.println("Sending SMS Notification");
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -61,6 +63,7 @@ class EmailNotification implements Runnable {
     @Override
     public void run() {
         System.out.println("Sending Email Notification");
+        
     }
 
 }
