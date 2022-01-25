@@ -1,0 +1,19 @@
+/* selector{font family:20px;} */
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#heading-notices {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
