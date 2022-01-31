@@ -1,0 +1,10 @@
+GET http://localhost:4545/hello
+###
+
+POST http://localhost:4545/hello
+Content-Type: application/json
+
+{
+  "name": "world"
+}
+###
