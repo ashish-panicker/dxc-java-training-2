@@ -1,0 +1,19 @@
+<div class="row" *ngIf="showFeatures">
+  <h2 class="mx-5 text-center">Features</h2>
+  <div class="col-md-12 mt-3" >
+    <div class="list-group" *ngFor="let feature of features" >
+      <a
+        href="#"
+        class="list-group-item list-group-item-action"
+        aria-current="true"
+      >
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1"> {{feature.title}} </h5>
+        </div>
+        <p class="mb-1"> {{feature.description}} </p>
+        <small> {{feature.note}} </small>
+      </a>
+      
+    </div>
+  </div>
+</div>

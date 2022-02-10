@@ -1,0 +1,19 @@
+{
+  "name": "math-ops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node index.js --type=dev --port=8080 --db.host=localhost --db.port=27017 --db.name=math-ops",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "https": "^1.0.0",
+    "minimist": "^1.2.5",
+    "progress": "^2.0.3"
+  }
+}
